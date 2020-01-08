@@ -22,7 +22,6 @@ int main()
 	system("cls"); system("color 20"); Sleep(verdes);
 	
 	system("cls"); system("color E0"); Sleep(amarillo);
-		
 	system("cls"); system("color 40"); Sleep(rojos);
 
 	pthread_t pthread_rojo, pthread_naranja, pthread_verde;
