@@ -10,22 +10,19 @@ void *verde(void*); void *naranja(void*); void *rojo(void*);
 int main()
 {
 	int i = 1;
-	int verdes;
+	int ver,	rj,amarillo;
 	printf( "Introduzca el tiempo de color verde " );
-	scanf( "%d", &verdes);
-	int rojos;
+	scanf( "%d", &ver);
 	printf( "Introduzca el tiempo de color rojo " );
-	scanf( "%d", &rojos);
-	int amarillo;
+	scanf( "%d", &rj);
 	printf( "Introduzca el tiempo de color naranja " );
 	scanf( "%d", &amarillo);
-	system("cls"); system("color 20"); Sleep(verdes);
 	
-	system("cls"); system("color E0"); Sleep(amarillo);
-		
-	system("cls"); system("color 40"); Sleep(rojos);
-
+	system("cls"); system("color 20"); Sleep(ver);	
+	system("cls"); system("color E0"); Sleep(amarillo);		
+	system("cls"); system("color 40"); Sleep(rj);
 	pthread_t pthread_rojo, pthread_naranja, pthread_verde;
-	
 	return 0;
 }
+
+
